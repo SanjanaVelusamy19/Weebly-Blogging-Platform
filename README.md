@@ -1,22 +1,23 @@
 
 
-## 🌈 WeeBly — A Modern Full-Stack Blogging App
+
+## WeeBly — A Modern Full-Stack Blogging App
 
 WeeBly is a colorful and simple blogging platform built with **React**, **Node.js**, and **MongoDB**.
 Users can register, log in, create blog posts, upload cover images, comment on posts, and switch between light/dark themes.
 
----
 
-### 🚀 Tech Stack
 
-#### 🖥 Frontend
+###  Tech Stack
+
+#### Frontend
 
 * React + Vite
 * Axios for API calls
 * React Helmet for SEO
 * CSS (gradient theme + dark mode toggle)
 
-#### ⚙️ Backend
+####  Backend
 
 * Express.js
 * MongoDB + Mongoose
@@ -24,9 +25,9 @@ Users can register, log in, create blog posts, upload cover images, comment on p
 * Bcrypt for password hashing
 * CORS + dotenv for configuration
 
----
 
-### 📁 Folder Structure
+
+### Folder Structure
 
 ```
 project/
@@ -50,30 +51,30 @@ project/
     └── package.json
 ```
 
----
 
-### 🧠 Features
 
-✅ User authentication (Register/Login)
-✅ Create, edit, and delete posts
-✅ Upload post cover images
-✅ Add and view comments
-✅ Author-only edit/delete access
-✅ Light/Dark mode toggle 🌙
-✅ Responsive and colorful UI
+###  Features
 
----
+ User authentication (Register/Login)
+ Create, edit, and delete posts
+ Upload post cover images
+ Add and view comments
+ Author-only edit/delete access
+ Light/Dark mode toggle 
+ Responsive and colorful UI
 
-### 🧩 How to Run Locally
 
-#### 1️⃣ Clone the repository
+
+###  How to Run Locally
+
+#### 1️ Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/weebly.git
 cd weebly
 ```
 
-#### 2️⃣ Setup the backend
+#### 2️ Setup the backend
 
 ```bash
 cd backend
@@ -94,11 +95,11 @@ Start the backend:
 npm run dev
 ```
 
-➡ Backend runs on **[http://localhost:4000](http://localhost:4000)**
+ Backend runs on **[http://localhost:4000](http://localhost:4000)**
 
 ---
 
-#### 3️⃣ Setup the frontend
+#### 3️ Setup the frontend
 
 ```bash
 cd ../frontend
@@ -106,13 +107,12 @@ npm install
 npm run dev
 ```
 
-➡ Frontend runs on **[http://localhost:5173](http://localhost:5173)**
+ Frontend runs on **[http://localhost:5173](http://localhost:5173)**
 
----
 
-### 🧾 Deployment Guide
+###  Deployment Guide
 
-#### 🌍 Backend (Render)
+####  Backend (Render)
 
 1. Push code to GitHub
 2. Go to [Render.com](https://render.com) → “New Web Service”
@@ -124,9 +124,9 @@ npm run dev
    * `JWT_SECRET=yourSecretKey`
 5. Build command → `npm install`
 6. Start command → `node server.js`
-7. Deploy 🚀
+7. Deploy 
 
-#### 💻 Frontend (Vercel / Netlify)
+#### Frontend (Vercel / Netlify)
 
 1. Go to [Vercel](https://vercel.com) or [Netlify](https://netlify.com)
 2. Connect your GitHub repo
@@ -135,23 +135,22 @@ npm run dev
 5. Add environment variable for backend API URL:
 
    * `VITE_API_BASE_URL=https://your-backend.onrender.com`
-6. Deploy 🎉
+6. Deploy 
 
 ---
 
-### 🔒 Security Notes
+###  Security Notes
 
 * Store JWTs securely (avoid localStorage in production)
 * Sanitize user input
 * Use HTTPS and environment-based secrets
 * Consider using PostgreSQL for larger deployments
 
----
 
-### 👩‍💻 Author
+
+###  Author
 
 **Sanjana V**
-🖋 Built with 💖 using React + Node.js
-📧 `sanjanavelusamy19@gmail.com`
-
+ Built with using React + Node.js
+ `sanjanavelusamy19@gmail.com`
 
